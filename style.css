@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 768px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header .menu .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list__nav {
+  padding-top: 35px;
+  padding-bottom: 31px;
+  padding-left: 79px;
+  color: #6475a3;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info details > summary {
+  list-style-type: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-right: 88px;
+  padding-left: 88px;
+}
+
+.info__questionnaire {
+  color: #1c1c1c;
+  padding-top: 131px;
+  padding-bottom: 76px;
+}
+
+.info__profile {
+  color: #1c1c1c;
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+
+.info__year {
+  margin-bottom: 25px;
+  text-align: center;
+  padding-right: 88px;
+  padding-left: 88px;
+}
+
+.info__personal_information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info__personal_information__data {
+  margin-bottom: 25px;
+  padding-top: 21px;
+  padding-bottom: 17px;
+  padding-left: 160px;
+  padding-right: 160px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
